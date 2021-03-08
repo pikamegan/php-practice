@@ -1,5 +1,10 @@
 <?php
 
+/* str_5.php contains a form that asks the user to enter two strings. 
+Let us call the first string str1 and the second string str2. 
+Edit str_5.php such that it displays "Bingo!" if every character in str1 also appears in str2.  
+Otherwise, it displays "Nope :( " */
+
 // add your code here
 $str1 = isset($_GET["str1"]) ? $_GET["str1"] : null;
 $str2 = isset($_GET["str2"]) ? $_GET["str2"] : null;
