@@ -1,5 +1,10 @@
 <?php
 
+/* tr_4.php contains a form that requests the user to enter a string. 
+Edit str_4.php so that it displays the message “The string <input string> is apalindrome” if the input string is a palindrome, 
+else print the message “The string <input string> is not apalindrome”.  
+str_4.php  should ignore digits, empty spaces or any special characters in the input stringwhen evaluating for a palindrome. */
+
    // add your code here
     $string = isset($_GET["string"]) ? $_GET["string"] : null;
 
