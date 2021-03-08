@@ -33,14 +33,14 @@ function returnSubstring($text, $start, $end) {
 if (inputNotEmpty($text, $start, $end)) {
     if (hasStartAndEnd($text, $start, $end)) {
         $substringToReturn = returnSubstring($text, $start, $end);
-        echo 'Substring [$substringToReturn] is found<br>';
+        echo "Substring [$substringToReturn] is found<br>";
     }
     else {
-        echo 'No such substring';
+        echo "No such substring";
     }
 }
 else {
-    echo 'No such substring';
+    echo "No such substring";
 }
 
 
