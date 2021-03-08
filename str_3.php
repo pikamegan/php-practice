@@ -1,7 +1,9 @@
-
-
-
 <?php
+
+/* str_3.php contains a form that asks the user to enter a string, say text, and two characters, say start andend. 
+Edit str_3.php that searches for a substring in text such that the substring begins with the characterstart and ends with the character end. 
+If there is no such substring, display the message "No suchsubstring". 
+*/ 
 
 // add your code here
 $text = isset($_GET["text"]) ? $_GET["text"] : null;
