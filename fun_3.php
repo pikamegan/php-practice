@@ -1,5 +1,9 @@
 <?php
 
+/* fun_3.php contains a form that accepts two integers, say min and max. 
+Edit fun_3.php such that it displays all the perfect squares between min and max. 
+For example, given min=10 and max=110, it displays the perfect squares – 16 25 36 49 64 81 100. */
+
 if(isset($_GET["min"]) && isset($_GET["max"])) {
 
     $min = $_GET["min"];
